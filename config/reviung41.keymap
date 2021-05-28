@@ -35,7 +35,7 @@
 //                       |     |     | RGUI | ADJ |     |
                         bindings = <
    &kp LS(GRAVE) &kp EXCL  &kp AT      &kp HASH &kp DLLR &kp PRCNT      &kp CARET &kp AMPS &kp STAR  &kp LPAR  &kp RPAR  &trans
-   &trans &none &kp LG(LBKT) &kp LG(LBRC) &kp LG(RBRC) &kp LG(RBKT)      &kp HOME  &kp PG_DN &kp PG_DN    &kp END &none &kp PIPE
+   &trans &none &kp LG(LBKT) &kp LG(LBRC) &kp LG(RBRC) &kp LG(RBKT)      &kp HOME  &kp PG_DN &kp PG_UP &kp END &none &kp PIPE
    &trans &none &none &none &none &none                                  &none &kp UNDER &kp PLUS &kp LBRC &kp RBRC &mt RSHFT RET
                                  &trans &kp LALT   &trans    &mo 3       &trans
                         >;
