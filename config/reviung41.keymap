@@ -14,14 +14,14 @@
                 compatible = "zmk,keymap";
 
                 default_layer {
-// --------------------------------------------------------------------------------------------------
-// |  TAB     |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P           |   BKSP    |
-// | CTRL/ESC |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;/ALT+SHFT  |    '      |
-// | SHFT     |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /           | SHFT(RET) |
+// -----------------------------------------------------------------------------------------
+// |  TAB     |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  |   BKSP    |
+// | CTRL/ESC |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |    '      |
+// | SHFT     |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | SHFT(RET) |
 //                             | GUI | LWR | SPC | RSE  | ALT |
                         bindings = <
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
-   &mt LCTRL ESC &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &mt LS(LALT) SEMI &kp SQT
+   &mt LCTRL ESC &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
    &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &mt RSHFT RET
                         &kp LGUI  &mo 1 &kp SPACE &mo 2  &kp RALT
                         >;
@@ -32,7 +32,7 @@
 // | ~  |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |           |
 // |    |     |back |tleft|trght|forth|   | HOME| PGDN |PGUP| END |  `  |     |     |
 // |    |     |     |     |     |     |   |  _  |  +   | {  |  }  |     | SHFT(RET) |
-//                       |     |     | RGUI | ADJ |     |
+//                        |     | GUI |   | ADJ |      |
                         bindings = <
    &kp LS(GRAVE) &kp EXCL  &kp AT      &kp HASH &kp DLLR &kp PRCNT      &kp CARET &kp AMPS &kp STAR  &kp LPAR  &kp RPAR  &trans
    &trans &none &kp LG(LBKT) &kp LG(LBRC) &kp LG(RBRC) &kp LG(RBKT)      &kp HOME  &kp PG_DN &kp PG_UP &kp END &none &kp PIPE
